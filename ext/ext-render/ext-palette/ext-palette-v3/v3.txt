@@ -1,0 +1,20 @@
+;paint.net Palette File
+;Palette Name: v3engine
+;Description: 
+;Colors: 16
+FF000000
+FF505050
+FFb0b0b0
+FFfff5cc
+FF243777
+FF89008c
+FF008750
+FF801e00
+FF1e00c8
+FFcc0000
+FF00cc00
+FFff8000
+FF0080ff
+FFff0050
+FF00f084
+FFffe600
