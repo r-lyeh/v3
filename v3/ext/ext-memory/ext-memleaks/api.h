@@ -1,0 +1,12 @@
+// no need for you to call these api. memory allocator should invoke them.
+
+extern void* (*watch)(void* ptr, size_t sz);
+extern void* (*forget)(void* ptr);
+
+#ifdef CODE
+#pragma once
+#include v3_memleaks_backend
+
+void* (*watch)(void* ptr, size_t sz) = watch_;
+void* (*forget)(void* ptr) = forget_;
+#endif
